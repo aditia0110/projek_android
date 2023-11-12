@@ -15,11 +15,11 @@ import android.widget.Toast;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-    private EditText mJumlah;
     private int mCountFibo = 0;
     private int maxFibbo = 0;
     private int mCount = 0;
     private int sisaHitung = 0;
+    private EditText mJumlah;
     private TextView showJumlah;
     private TextView mShowCountFibo;
     private Button buttonSimpan;
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         buttonHitung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                hitungFibbonacci(view);
+                hitungSetFibbonacci(view);
             }
         });
 
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         showJumlah.setText(Integer.toString(maxFibbo));
     }
 
-    public void hitungFibbonacci(View view){
+    public void hitungSetFibbonacci(View view){
         mCount++;
         sisaHitung--;
 
@@ -111,9 +111,9 @@ public class MainActivity extends AppCompatActivity {
 
     public  void resetFibonacci(View view){
         mCount = 0;
+        sisaHitung = maxFibbo;
+        showJumlah.setText(Integer.toString(sisaHitung));
         mCountFibo = 0;
-        EditText mJumlah;
-//        mShowCount.setText(Integer.toString(mCount));
         mShowCountFibo.setText(Integer.toString(mCountFibo));
     }
 
