@@ -1,7 +1,10 @@
-# android-uts-fibbonaci
-tugas uts membuat hitung fibonacci dengan andorid
+# android project semester 3 sebelum uts
+
+- membuat splashscreen
+- tugas android semester 3 mengenai intent dan activity
+
 
 #### Berikut output program :
 
 
-![android](https://github.com/adam-webdev/android-uts-fibbonaci/assets/75572469/2c4f936e-3a56-40db-9613-5276ed3e803c)
+![new](https://github.com/adam-webdev/android-project/assets/75572469/c138fc24-0591-4e6d-8ea6-ef67c5b70f1f)
