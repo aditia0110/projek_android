@@ -11,9 +11,6 @@
             android:paddingLeft="40dp"
             android:paddingRight="40dp">
 
-
-
-
             <TextView
                 android:id="@+id/textViewJumlah"
                 android:layout_width="match_parent"

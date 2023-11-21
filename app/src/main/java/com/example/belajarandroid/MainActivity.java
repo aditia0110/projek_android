@@ -15,7 +15,7 @@ import android.widget.Toast;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-    private int mCountFibo = 0;
+     private int mCountFibo = 0;
     private int maxFibbo = 0;
     private int mCount = 0;
     private int sisaHitung = 0;
